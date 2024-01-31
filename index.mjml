@@ -1,0 +1,81 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#555" />
+    </mj-attributes>
+    <mj-style>
+      .image-container {
+        width: 100%;
+        height: 500px; /* Adjust the height as needed */
+        overflow: hidden;
+        position: relative;
+      }
+
+      .image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+        opacity: 0;
+      }
+
+      .fadeInOut {
+        animation: fadeInOut 6s linear infinite;
+      }
+
+      .image1 { animation-delay: 0s; }
+      .image2 { animation-delay: 2s; }
+      .image3 { animation-delay: 4s; }
+
+      @keyframes fadeInOut {
+        0%, 20%, 100% { opacity: 0; }
+        25%, 75% { opacity: 1; }
+      }
+
+      .shipping {
+        position: absolute;
+        top: 55%;
+        right: 0;
+        z-index: 2;
+      }
+
+      .hero {
+        position: relative;
+        z-index: 1;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#eee">
+    <mj-include path="./header.mjml" />
+
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text align="center">
+          <h2>UPDATE YOUR PAYMENT INFORMATION</h2>
+          <h3>Take</h3>
+          <h1>50% OFF</h1>
+        </mj-text>
+        <mj-button>CLAIM MY OFFER</mj-button>
+        <mj-image padding-top="20px" css-class="shipping" width="100px" src="https://i.ibb.co/vwtZFcy/SBfreeshipping.png"></mj-image>
+        <mj-image padding-top="100px" css-class="hero" width="400px"
+ height="400px"                 src="https://i.pinimg.com/originals/ce/17/5f/ce175fdb820f2f71681a32db4637759e.gif"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffff">
+    <mj-column>
+      <mj-image width="40px"src="https://t4.ftcdn.net/jpg/00/98/26/11/360_F_98261159_Po5JS7ds82XaePJIsG1MiEtHRzOeUPNj.jpg"></mj-image>
+      </mj-column>
+      <mj-column>
+      <mj-text>
+        <h3>Get Messages</h3>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+      <mj-image width="40px"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAABubm5mZmbExMTS0tImJiapqan7+/s7Ozurq6vHx8fV1dWmpqbMzMw4ODgWFhYhISEzMzMQEBAtLS0ICAgoKCgcHBxRUVGcnJwYGBjx8fHf3998fHzm5uYuLi64uLiFhYVERERMTExBQUFbW1u+cLgDAAACsklEQVR4nO3d3XLaMBBAYalpYuqWQExJcPgJDs37v2IhTTtepjO98mh6dL5rLrQjW2tp1yYlSZIkSZIkSZIkSZIkSZIkSZIkou1uW3oIkzrsN6+b/aH0MKZze8oX3bfSA5nK4S1/uC09lIm0698RZugs9n8CzMv70oOZxCjC3H0tPZopNKMI85fPpYczgd1mHOKCOIvtahziI3FFjSEik8YoYVBDnD/gQ2wfxxF+By43sxgiMWnM2rsQInAW03wZLlTivTjnr6g1JI0nfoghL94Rl5smrKgLYtJowiwSk8Zs/jwOsSPu+udhtVkSz25qSBpxv0icxZg0npD3YkgaHTFpxFlEbqbiA9yCeKGOD4pzfkAuNxUkjRgicRb7cC+uiPdiXFGJZZsKkwZwFlMflhtk2aaGpJHxIfZLfIhxuUGWbapLGsQTuNSHg40X4gNc3EytiY/hNSQNfsdGH07DiWWb68dwYNJIf29nmB2HTxQ34Rj1o2yzO8Vnc5Tnc9LYrv79u//YepuG0mOY2JAWpYcwsS6xL9KcVxXM4VB6CBMb0rb0EKZ1XkvT7gc8H54zYru/oXiLrcTAVpRjNw4QeF6DbwnDt/XFdjDgHh/fKRULNMCzttjmzjsvxXedXr+LAUwTIUBg7Qnfwd9meIAN/TB/Dn+F9ipN8Ppp+GmiCXUKYF9b3C4BexNb+ksJ+Lf043aJ1+d9nSZw9yD/5fUYIPCdGfx7T01st8QtMrWdqgHfIW3Cjp5XfOF/ACSmCWDxJVaXiMUX/KkaPU3gT9Ua+DeG8Gmitu0SsfhC/+YePk3gT9WO4RLlFV/S7jQOkFd8uaqAAtNEDd+C5n/Pe3SV8s5k3vG/q5/uX3+lCegMXrz/v8UA/n+LdPmPklnpIUiSJEmSJEmSJEmSJEmSJEmSpEr8BBiHKfPcGeC7AAAAAElFTkSuQmCC"></mj-image>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-include path="./footer.mjml" />
+  </mj-body>
+</mjml>

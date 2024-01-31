@@ -1,0 +1,39 @@
+<mj-section background-color="#D0B08F">
+
+  <mj-column>
+    <mj-image 
+ width="200px"             src="https://asset.brandfetch.io/idkHDOX8nw/idvZyyNRkI.jpeg">
+    </mj-image>
+  </mj-column>
+
+</mj-section>
+<mj-section background-color="#D0B08F">
+<mj-column>
+  <mj-image width="200px"src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png">
+  </mj-image>
+  
+  </mj-column>
+
+  <mj-column>
+  <mj-image
+            width="200px" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/062015/available_app_store.png?itok=96QdbuiB">
+  </mj-image>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#D0B08F">
+<mj-column>
+  <mj-image width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jnqq766PA7x0mXsYnlAG4x7C1NQoLcRB1w&usqp=CAU"></mj-image>
+  </mj-column>
+  <mj-column>
+  <mj-image width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jnqq766PA7x0mXsYnlAG4x7C1NQoLcRB1w&usqp=CAU"></mj-image>
+  </mj-column>
+  <mj-column>
+  <mj-image width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jnqq766PA7x0mXsYnlAG4x7C1NQoLcRB1w&usqp=CAU"></mj-image>
+  </mj-column>
+  <mj-column>
+  <mj-image width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jnqq766PA7x0mXsYnlAG4x7C1NQoLcRB1w&usqp=CAU"></mj-image>
+  </mj-column>
+  <mj-column>
+  <mj-image width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jnqq766PA7x0mXsYnlAG4x7C1NQoLcRB1w&usqp=CAU"></mj-image>
+  </mj-column>
+</mj-section>

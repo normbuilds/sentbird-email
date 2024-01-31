@@ -1,0 +1,14 @@
+<mj-section>
+
+  <mj-column>
+    <mj-text align="center">
+     <h1>SCENTBIRD</h1>
+      <h3>NEW YORK</h3>
+    </mj-text>
+    <mj-navbar hamburger="hamburger" ico-color="#000">
+    <mj-navbar-link>Gift Guide</mj-navbar-link>
+      <mj-navbar-link>All Perfumes</mj-navbar-link>
+       <mj-navbar-link>Bestsellers</mj-navbar-link>
+       <mj-navbar-link>Drift</mj-navbar-link>
+      
+</mj-section>
